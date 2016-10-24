@@ -13,8 +13,9 @@
 	margin-top: 15px;
 	padding: 15px 0px 0px 0px;
 	font-size: 95%;
-	text-align: center;
+	/*text-align: center;*/
 	border-top: 2px solid #658A16;
+	width: 50%;
 }
 
 #footer a {color: #999;}

@@ -10,7 +10,7 @@
 <body>
 	<form id="inputForm" action="${ctx}/profile" method="post" class="form-horizontal">
 		<input type="hidden" name="id" value="${user.id}"/>
-		<fieldset>
+		<%--<fieldset>--%>
 			<legend><small>资料修改</small></legend>
 			<div class="control-group">
 				<label for="name" class="control-label">用户名:</label>
@@ -34,7 +34,7 @@
 				<input id="submit_btn" class="btn btn-primary" type="submit" value="提交"/>&nbsp;	
 				<input id="cancel_btn" class="btn" type="button" value="返回" onclick="history.back()"/>
 			</div>
-		</fieldset>
+		<%--</fieldset>--%>
 	</form>
 	
 	<script>

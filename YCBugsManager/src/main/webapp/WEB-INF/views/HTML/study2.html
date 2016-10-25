@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head> 
     <meta charset="UTF-8">
-    <title>study2</title>
+    <title>菜鸟教程(runoob.com)</title> 
 </head>
 <body>
-<h1>标题</h1>
-<hr>
-<h3>哈哈哈哈😄😄</h3>
-<hr>
-
-<canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
-    您的浏览器不支持 HTML5 canvas 标签。
-</canvas>
-
+<p id="demo">点击按钮获取您当前坐标（可能需要比较长的时间获取）：</p>
+<button onclick="getLocation()">点我</button>
 <script>
+    var x=document.getElementById("demo");
+    function getLocation()
+    {
+        if (navigator.geolocation)
+        {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+        else
+        {
+            x.innerHTML="该浏览器不支持获取地理位置。";
+        }
+    }
 
-    var c=document.getElementById("myCanvas");
-    var ctx=c.getContext("2d");
-    ctx.fillStyle="#FF0000";
-    ctx.fillRect(0,0,150,75);
-
+    function showPosition(position)
+    {
+        x.innerHTML="纬度: " + position.coords.latitude +
+                "<br>经度: " + position.coords.longitude;
+    }
 </script>
-
 </body>
 </html>

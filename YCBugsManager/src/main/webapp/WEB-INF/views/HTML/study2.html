@@ -3,6 +3,14 @@
 <head> 
     <meta charset="UTF-8">
     <title>菜鸟教程(runoob.com)</title> 
+
+    <style>
+        a:link {color:#FF0000;}      /* 未访问链接*/
+        a:visited {color:#00FF00;}  /* 已访问链接 */
+        a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
+        a:active {color:#0000FF;}  /* 鼠标点击时 */
+    </style>
+
 </head>
 <body>
 <p id="demo">点击按钮获取您当前坐标（可能需要比较长的时间获取）：</p>
@@ -27,5 +35,6 @@
                 "<br>经度: " + position.coords.longitude;
     }
 </script>
+<p><b><a href="/css/" target="_blank">这是一个链接</a></b></p>
 </body>
 </html>

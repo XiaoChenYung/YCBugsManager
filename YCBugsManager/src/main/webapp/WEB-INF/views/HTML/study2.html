@@ -16,6 +16,10 @@
 <p id="demo">点击按钮获取您当前坐标（可能需要比较长的时间获取）：</p>
 <button onclick="getLocation()">点我</button>
 <script>
+
+    var date = Date().toString();
+    var temp = document.getElementById("demo").innerHTML = date;
+    console.log(date);
     var x=document.getElementById("demo");
     function getLocation()
     {

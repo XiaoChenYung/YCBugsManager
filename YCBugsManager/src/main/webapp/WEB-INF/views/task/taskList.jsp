@@ -22,17 +22,18 @@
 	    <tags:sort/>
 	</div>
 	<div class="table-responsive">
-	<table id="contentTable" class="table table-striped table-bordered table-condensed">
-		<thead><tr><th>任务</th><th>管理</th></tr></thead>
+	    <table id="contentTable" class=" table-striped table-bordered">
+		<thead><tr><th>任务</th><th>管理</th><th>备注</th></tr></thead>
 		<tbody>
 		<c:forEach items="${tasks.content}" var="task">
 			<tr>
 				<td><a href="${ctx}/task/update/${task.id}">${task.title}</a></td>
 				<td><a href="${ctx}/task/delete/${task.id}">删除</a></td>
+                <td>哈哈哈哈</td>
 			</tr>
 		</c:forEach>
 		</tbody>
-	</table>
+	    </table>
     </div>
 	<tags:pagination page="${tasks}" paginationSize="5"/>
 

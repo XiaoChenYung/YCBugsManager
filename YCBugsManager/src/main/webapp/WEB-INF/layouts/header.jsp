@@ -6,7 +6,7 @@
 	<div id="title">
 	    <h6><a href="${ctx}">帮帮帮系统</a>
 	    <shiro:user>
-			<div class="btn-group ">
+			<div class="btn-group pull-right">
 				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
 					<i class="icon-user"></i> <shiro:principal property="name"/>
 					<span class="caret"></span>

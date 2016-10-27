@@ -18,7 +18,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link type="image/x-icon" href="${ctx}/static/images/favicon.ico" rel="shortcut icon">
-<link href="${ctx}/static/bootstrap/2.3.2/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<link href="${ctx}/static/bootstrap/3.3.0/css/bootstrap.css" type="text/css" rel="stylesheet" />
 	<%--<link href="${ctx}/static/bootstrap/2.3.2/css/bootstrap.min.css" type="text/css" rel="stylesheet" />--%>
 <link href="${ctx}/static/jquery-validation/1.11.1/validate.css" type="text/css" rel="stylesheet" />
 <link href="${ctx}/static/styles/default.css" type="text/css" rel="stylesheet" />
@@ -38,6 +38,6 @@
 		</div>
 		<%@ include file="/WEB-INF/layouts/footer.jsp"%>
 	</div>
-	<script src="${ctx}/static/bootstrap/2.3.2/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="${ctx}/static/bootstrap/3.3.0/js/bootstrap.js" type="text/javascript"></script>
 </body>
 </html>

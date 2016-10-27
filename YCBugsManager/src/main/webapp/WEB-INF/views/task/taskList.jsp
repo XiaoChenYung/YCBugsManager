@@ -13,7 +13,7 @@
 		<div id="message" class="alert alert-success"><button data-dismiss="alert" class="close">×</button>${message}</div>
 	</c:if>
 	<div class="row">
-		<div class="span4 offset7">
+		<div class="span4 offset3">
 			<form class="form-search" action="#">
 				<label>名称：</label> <input type="text" name="search_LIKE_title" class="input-medium" value="${param.search_LIKE_title}"> 
 				<button type="submit" class="btn" id="search_btn">Search</button>
@@ -21,7 +21,7 @@
 	    </div>
 	    <tags:sort/>
 	</div>
-	
+	<div class="table-responsive">
 	<table id="contentTable" class="table table-striped table-bordered table-condensed">
 		<thead><tr><th>任务</th><th>管理</th></tr></thead>
 		<tbody>
@@ -33,7 +33,7 @@
 		</c:forEach>
 		</tbody>
 	</table>
-	
+    </div>
 	<tags:pagination page="${tasks}" paginationSize="5"/>
 
 	<div><a class="btn" href="${ctx}/task/create">创建任务</a></div>

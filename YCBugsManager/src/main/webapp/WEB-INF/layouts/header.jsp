@@ -6,7 +6,7 @@
 	<div id="title">
 	    <h1><a href="${ctx}">赛导游bug管理系统</a>
 	    <shiro:user>
-			<div class="btn-group pull-right">
+			<div class="btn-group ">
 				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
 					<i class="icon-user"></i> <shiro:principal property="name"/>
 					<span class="caret"></span>

@@ -15,8 +15,9 @@
 	<div class="row">
 		<div class="span4 offset3">
 			<form class="form-search" action="#">
-				<label>名称：</label> <input type="text" name="search_LIKE_title" class="input-medium" value="${param.search_LIKE_title}">
-				<button type="submit" class="btn" id="search_btn">Search</button>
+				<label>名称：</label> <input type="text" name="search_LIKE_title" class="form-control" value="${param.search_LIKE_title}">
+                <br>
+				<button type="submit" class="btn btn-success" id="search_btn">Search</button>
 		    </form>
 	    </div>
 	    <tags:sort/>

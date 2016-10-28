@@ -15,8 +15,8 @@
 	<div class="row">
 		<div class="span4 offset3">
 			<form class="form-search" action="#">
-				<label>名称：</label> <input type="text" name="search_LIKE_title" class="input-medium" value="${param.search_LIKE_title}"> 
-				<button type="submit" class="btn btn-danger col-lg-offset-1" id="search_btn">搜索</button>
+				<label>名称：</label> <input type="text" name="search_LIKE_title" class="input-medium" value="${param.search_LIKE_title}">
+				<button type="submit" class="btn" id="search_btn">Search</button>
 		    </form>
 	    </div>
 	    <tags:sort/>
@@ -29,7 +29,7 @@
 			<tr>
 				<td class="bar-danger"><a href="${ctx}/task/update/${task.id}">${task.title}</a></td>
 				<td><a href="${ctx}/task/delete/${task.id}">删除</a></td>
-                <td>哈哈哈哈哈哈哈哈哈哈哈哈哈哈</td>
+                <td>哈哈哈哈哈哈哈</td>
 			</tr>
 		</c:forEach>
 		</tbody>

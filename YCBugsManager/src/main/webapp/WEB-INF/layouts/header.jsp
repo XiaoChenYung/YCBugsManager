@@ -4,7 +4,7 @@
 <c:set var="ctx" value="${pageCgontext.request.contextPath}"/>
 <div id="header">
 	<div id="title">
-	    <h6><a href="${ctx}">帮帮帮系统</a>
+	    <h1><a href="${ctx}">bangbangbang</a>
 	    <shiro:user>
 			<div class="btn-group pull-right">
 				<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
@@ -23,6 +23,6 @@
 				</ul>
 			</div>
 		</shiro:user>
-		</h6>
+		</h1>
 	</div>
 </div>

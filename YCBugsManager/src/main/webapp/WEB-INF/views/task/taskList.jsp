@@ -20,13 +20,13 @@
 		<div>
 			<form class="form-horizontal" role="form" action="#">
                 <div class="form-group form-group-lg">
-                    <label class="col-md-1 control-label h4" for="serchInput">名称：</label>
-                    <div class="col-md-9">
-                        <input type="text" id="serchInput" name="search_LIKE_title" class="form-control " value="${param.search_LIKE_title}">
+                    <label class="col-md-1 control-label col-sm-8" for="serchInput">名称：</label>
+                    <div class="col-md-8">
+                        <input type="text" id="serchInput" name="search_LIKE_title" class="form-control" value="${param.search_LIKE_title}">
                     </div>
 
-                    <div class="col-md-1 pull-right">
-                        <button type="submit" class="btn btn-success serchBtn" id="search_btn">搜索</button>
+                    <div class="col-md-2 pull-right">
+                        <button type="submit" class="btn btn-success col-sm-8" id="search_btn">搜索</button>
                     </div>
 
 

@@ -17,10 +17,13 @@
 		<div id="message" class="alert alert-success"><button data-dismiss="alert" class="close">×</button>${message}</div>
 	</c:if>
 	<div class="row">
-		<div>
+		<div class="top-height">
 			<form class="form-horizontal" role="form" action="#">
                 <div class="form-group form-group-lg">
-                    <label class="col-md-1 control-label col-sm-8" for="serchInput">名称：</label>
+                    <div class="col-md-2">
+                        <label class="control-label col-sm-8" for="serchInput">名称：</label>
+                    </div>
+
                     <div class="col-md-8">
                         <input type="text" id="serchInput" name="search_LIKE_title" class="form-control" value="${param.search_LIKE_title}">
                     </div>

@@ -9,6 +9,10 @@
 </head>
 
 <body>
+
+
+
+
 	<c:if test="${not empty message}">
 		<div id="message" class="alert alert-success"><button data-dismiss="alert" class="close">×</button>${message}</div>
 	</c:if>
@@ -16,13 +20,13 @@
 		<div>
 			<form class="form-horizontal" role="form" action="#">
                 <div class="form-group form-group-lg">
-                    <label class="col-lg-1 control-label pull-left">名称：</label>
-                    <div class="col-xs-2">
-                        <input type="text" name="search_LIKE_title" class="form-control " value="${param.search_LIKE_title}">
+                    <label class="col-md-1 control-label h4" for="serchInput">名称：</label>
+                    <div class="col-md-9">
+                        <input type="text" id="serchInput" name="search_LIKE_title" class="form-control " value="${param.search_LIKE_title}">
                     </div>
 
-                    <div class="col-xs-2 pull-right">
-                        <button type="submit" class="btn btn-success serchBtn" id="search_btn">Search</button>
+                    <div class="col-md-1 pull-right">
+                        <button type="submit" class="btn btn-success serchBtn" id="search_btn">搜索</button>
                     </div>
 
 

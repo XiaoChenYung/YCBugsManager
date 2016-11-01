@@ -13,10 +13,20 @@
 		<div id="message" class="alert alert-success"><button data-dismiss="alert" class="close">×</button>${message}</div>
 	</c:if>
 	<div class="row">
-		<div class="span4 offset3">
-			<form class="form-search" action="#">
-				<label>名称：</label> <input type="text" name="search_LIKE_title" class="form-control" value="${param.search_LIKE_title}">
-				<button type="submit" class="btn btn-success serchBtn" id="search_btn">Search</button>
+		<div>
+			<form class="form-horizontal" role="form" action="#">
+                <div class="form-group form-group-lg">
+                    <label class="col-lg-1 control-label pull-left">名称：</label>
+                    <div class="col-xs-2">
+                        <input type="text" name="search_LIKE_title" class="form-control " value="${param.search_LIKE_title}">
+                    </div>
+
+                    <div class="col-xs-2 pull-right">
+                        <button type="submit" class="btn btn-success serchBtn" id="search_btn">Search</button>
+                    </div>
+
+
+                </div>
 		    </form>
 	    </div>
 	    <tags:sort/>

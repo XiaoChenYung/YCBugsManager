@@ -28,8 +28,8 @@
 </head>
 
 <body>
-	<form id="inputForm" action="${ctx}/register" method="post" class="form-horizontal">
-		<fieldset>
+	<form id="inputForm" action="${ctx}/register" method="post" role="form">
+		<%--<fieldset>--%>
 			<legend><small>用户注册</small></legend>
 			<div class="control-group">
 				<label for="loginName" class="control-label">登录名:</label>
@@ -59,7 +59,7 @@
 				<input id="submit_btn" class="btn btn-primary" type="submit" value="提交"/>&nbsp;	
 				<input id="cancel_btn" class="btn" type="button" value="返回" onclick="history.back()"/>
 			</div>
-		</fieldset>
+		<%--</fieldset>--%>
 	</form>
 </body>
 </html>

@@ -57,10 +57,10 @@
 			</div>
             <br> <br>
 			<div class="form-actions row">
-                <div class="col-md-6 col-xs-6 color">
+                <div class="col-md-6 color">
                     <input id="submit_btn" class="btn btn-primary col-sm-10 center" type="submit" value="提交"/>&nbsp;
                 </div>
-                <div class="col-md-6 col-xs-6 color">
+                <div class="col-md-6 color">
                     <input id="cancel_btn" class="btn col-sm-10 center" type="button" value="返回" onclick="history.back()"/>
                 </div>
 			</div>

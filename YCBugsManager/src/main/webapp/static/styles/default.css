@@ -30,13 +30,18 @@
 }
 
 .center {
-	margin: auto;
-	/*width: 30%;*/
-    /*margin: 0 auto;*/
-	/*vertical-align: middle;*/
-	/*text-align: center;*/
+	/*width: 100px;*/
+	/*height: 100px;*/
+	/*margin: 10px;*/
+	/*width: 400px;*/
+	/*height: 250px;*/
+	/*background-color: lightgrey;*/
 }
 
 .color {
-	/*background-color: #00FF00;*/
+	/*background-color: cornflowerblue;*/
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
 }

@@ -30,7 +30,10 @@
 }
 
 .center {
-    margin: 0 auto;
-	vertical-align: middle;
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+    /*margin: 0 auto;*/
+	/*vertical-align: middle;*/
+	/*text-align: center;*/
 }

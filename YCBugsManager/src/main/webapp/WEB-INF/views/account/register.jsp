@@ -56,7 +56,7 @@
 				</div>
 			</div>
             <br> <br>
-			<div class="form-actions row center">
+			<div class="form-actions row">
                 <div class="col-md-6 col-xs-6 center">
                     <input id="submit_btn" class="btn btn-primary col-sm-10" type="submit" value="提交"/>&nbsp;
                 </div>

@@ -5832,7 +5832,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   margin-top: -3px;
 }
 .login {
-  background: url(../img/login/imac.png) 0 0 no-repeat;
+  background: url(../../../images/img/login/imac.png) 0 0 no-repeat;
   background-size: 940px 778px;
   color: #ffffff;
   margin-bottom: 77px;
@@ -5906,7 +5906,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
   .login {
-    background-image: url(../img/login/imac-2x.png);
+    background-image: url(../../../images/img/login/imac.png);
   }
 }
 footer {

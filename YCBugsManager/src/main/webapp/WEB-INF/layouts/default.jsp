@@ -25,7 +25,8 @@
 <script src="${ctx}/static/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
 <script src="${ctx}/static/jquery-validation/1.11.1/jquery.validate.min.js" type="text/javascript"></script>
 <script src="${ctx}/static/jquery-validation/1.11.1/messages_bs_zh.js" type="text/javascript"></script>
-
+<link href="${ctx}/static/styles/assets/css/demo.css" rel="stylesheet">
+<link href="${ctx}/static/styles/dist/css/flat-ui.css" rel="stylesheet">
 
 <sitemesh:head/>
 </head>

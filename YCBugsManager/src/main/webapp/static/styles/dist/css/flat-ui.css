@@ -691,7 +691,7 @@ a.thumbnail.active {
 .btn:hover,
 .btn:focus {
   outline: none;
-  color: #ffffff;
+  color: #aaaaaa;
 }
 .btn:active,
 .btn.active {

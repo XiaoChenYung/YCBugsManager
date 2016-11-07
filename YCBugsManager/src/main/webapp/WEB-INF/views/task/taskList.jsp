@@ -55,5 +55,6 @@
 	<tags:pagination page="${tasks}" paginationSize="5"/>
 
 	<div><a class="btn" href="${ctx}/task/create">创建任务</a></div>
+	<div><a class="mybtn">测试按钮</a></div>
 </body>
 </html>

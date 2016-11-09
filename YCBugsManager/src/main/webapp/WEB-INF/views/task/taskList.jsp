@@ -12,10 +12,10 @@
 	<c:if test="${not empty message}">
 		<div id="message" class="alert alert-success"><button data-dismiss="alert" class="close">×</button>${message}</div>
 	</c:if>
-	<div class="row">
+	<div>
 		<div class="top-height">
 			<form class="form-horizontal" role="form" action="#">
-                <div class="form-group form-group-lg">
+                <div class="form-group form-group-lg row">
                     <div class="col-md-2">
                         <label class="control-label col-sm-8" for="serchInput">名称：</label>
                     </div>
@@ -24,7 +24,7 @@
                         <input type="text" id="serchInput" name="search_LIKE_title" class="form-control" value="${param.search_LIKE_title}">
                     </div>
 
-                    <div class="col-md-2 pull-right">
+                    <div class="col-md-2">
                         <button type="submit" class="btn btn-success col-sm-8" id="search_btn">搜索</button>
                     </div>
 
@@ -55,10 +55,7 @@
 
 	<script>
 		$(document).ready(function () {
-			var mainNav = document.getElementById("mainnav");
-			if (mainNav != null) {
-				mainNav.removeClass(hidden);
-			}
+			$("#mainnav").removeClass(hide());
 
 		});
 	</script>

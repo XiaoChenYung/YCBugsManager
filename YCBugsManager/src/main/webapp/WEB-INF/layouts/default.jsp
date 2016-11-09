@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-<title>赛导游:<sitemesh:title/></title>
+<title>同城帮:<sitemesh:title/></title>
 <%--<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />--%>
 <%--<meta http-equiv="Cache-Control" content="no-store" />--%>
 <%--<meta http-equiv="Pragma" content="no-cache" />--%>

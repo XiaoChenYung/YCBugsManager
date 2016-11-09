@@ -42,7 +42,7 @@
         <%--</div>--%>
     <%--</div>--%>
 
-        <div class="row">
+        <div class="row" style="margin-top: 50px">
             <div class="col-xs-8">
                 <img src="${ctx}/static/images/img/icons/png/Book.png">
             </div>

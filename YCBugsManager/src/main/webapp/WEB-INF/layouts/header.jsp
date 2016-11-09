@@ -39,7 +39,7 @@
                                 </li>
                                     <%--<li><a href="#fakelink">About Us</a></li>--%>
                             </ul>
-                            <form class="navbar-form navbar-right" action="#" role="search">
+                            <form id="mainnav" class="navbar-form navbar-right hidden" action="#" role="search">
                                 <div class="form-group">
                                     <div class="input-group">
                                         <input class="form-control" id="navbarInput-01" type="search"

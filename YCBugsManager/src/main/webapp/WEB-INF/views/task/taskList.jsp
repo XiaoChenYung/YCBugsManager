@@ -9,10 +9,6 @@
 </head>
 
 <body>
-
-
-
-
 	<c:if test="${not empty message}">
 		<div id="message" class="alert alert-success"><button data-dismiss="alert" class="close">×</button>${message}</div>
 	</c:if>
@@ -56,5 +52,16 @@
 
 	<div><a class="btn" href="${ctx}/task/create">创建任务</a></div>
 	<div><a class="mybtn">测试按钮</a></div>
+
+	<script>
+		$(document).ready(function () {
+			var mainNav = document.getElementById("mainnav");
+			if (mainNav != null) {
+				mainNav.removeClass(hidden);
+			}
+
+		});
+	</script>
+
 </body>
 </html>

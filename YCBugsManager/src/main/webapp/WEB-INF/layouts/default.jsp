@@ -31,7 +31,7 @@
 <sitemesh:head/>
 </head>
 
-<body>
+<body class="bodyColor">
 	<div class="container">
 		<%@ include file="/WEB-INF/layouts/header.jsp"%>
 		<div id="content">

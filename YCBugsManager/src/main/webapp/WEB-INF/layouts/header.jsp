@@ -15,7 +15,7 @@
                                     data-target="#navbar-collapse-01">
                                 <span class="sr-only">Toggle navigation</span>
                             </button>
-                            <a class="navbar-brand" href="${ctx}">同城帮</a>
+                            <a class="navbar-brand" href="${ctx}">任务</a>
                         </div>
                         <div class="collapse navbar-collapse pull-right" id="navbar-collapse-01">
                             <ul class="nav navbar-nav navbar-left">

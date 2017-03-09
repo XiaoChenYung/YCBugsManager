@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
-<title>同城帮:<sitemesh:title/></title>
+<title>任务管理:<sitemesh:title/></title>
 <%--<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />--%>
 <%--<meta http-equiv="Cache-Control" content="no-store" />--%>
 <%--<meta http-equiv="Pragma" content="no-cache" />--%>
@@ -26,7 +26,7 @@
 <script src="${ctx}/static/jquery-validation/1.11.1/jquery.validate.min.js" type="text/javascript"></script>
 <script src="${ctx}/static/jquery-validation/1.11.1/messages_bs_zh.js" type="text/javascript"></script>
 <link href="${ctx}/static/styles/assets/css/demo.css" rel="stylesheet">
-<link href="${ctx}/static/styles/dist/css/flat-ui.css" rel="stylesheet">
+<%--<link href="${ctx}/static/styles/dist/css/flat-ui.css" rel="stylesheet">--%>
 
 <sitemesh:head/>
 </head>

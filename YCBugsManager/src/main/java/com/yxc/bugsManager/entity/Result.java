@@ -7,6 +7,8 @@ import java.util.List;
  */
 public class Result extends IdEntity {
     private int code;
+    private List tasks;
+    private String description;
 
     public String getDescription() {
         return description;
@@ -24,15 +26,15 @@ public class Result extends IdEntity {
         this.code = code;
     }
 
-    private String description;
 
-    public List<Task> getTasks() {
+
+    public List getTasks() {
         return tasks;
     }
 
-    public void setTasks(List<Task> tasks) {
+    public void setTasks(List tasks) {
         this.tasks = tasks;
     }
 
-    private List<Task> tasks;
+
 }

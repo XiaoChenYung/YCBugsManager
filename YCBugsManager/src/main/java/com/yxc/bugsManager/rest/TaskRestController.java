@@ -10,6 +10,7 @@ import java.util.List;
 
 import javax.validation.Validator;
 
+import com.yxc.bugsManager.entity.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,8 +47,12 @@ public class TaskRestController {
 	private Validator validator;
 
 	@RequestMapping(method = RequestMethod.GET, produces = MediaTypes.JSON_UTF_8)
-	public List<Task> list() {
-		return taskService.getAllTask();
+	public Result list() {
+		Result result = new Result();
+		result.setTasks(taskService.getAllTask());
+		result.setCode(200);
+		result.setDescription("好的");
+		return result;
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET, produces = MediaTypes.JSON_UTF_8)
@@ -89,7 +94,7 @@ public class TaskRestController {
 		taskService.saveTask(task);
 	}
 
-	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+	@RequestMapping(value = "/{id}", method = RequestMethod.DELETE, consumes = MediaTypes.JSON)
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public void delete(@PathVariable("id") Long id) {
 		taskService.deleteTask(id);

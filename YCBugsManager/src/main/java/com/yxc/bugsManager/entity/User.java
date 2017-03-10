@@ -32,6 +32,7 @@ public class User extends IdEntity {
 	private Date registerDate;
 
 	public User() {
+
 	}
 
 	public User(Long id) {

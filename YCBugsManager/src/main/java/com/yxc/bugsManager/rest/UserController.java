@@ -22,10 +22,18 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping(method = RequestMethod.GET, produces = MediaTypes.JSON_UTF_8)
-    public Result list () {
+    public Result getAllResult () {
         Result result = new Result();
         List list = userService.getAllUser();
         result.setTasks(list);
         return result;
     }
+
+    public Result registerResult () {
+        Result result = new Result();
+        List list = userService.getAllUser();
+        result.setTasks(list);
+        return result;
+    }
+
 }

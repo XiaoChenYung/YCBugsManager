@@ -16,7 +16,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/v1/user")
-public class UserController {
+public class UserRestController {
 
     @Autowired
     private UserService userService;
@@ -29,6 +29,7 @@ public class UserController {
         return result;
     }
 
+    @RequestMapping(method = RequestMethod.POST, produces = MediaTypes.JSON_UTF_8)
     public Result registerResult () {
         Result result = new Result();
         List list = userService.getAllUser();

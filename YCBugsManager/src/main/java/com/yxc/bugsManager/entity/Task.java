@@ -10,6 +10,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.hibernate.validator.constraints.NotBlank;
 
@@ -43,6 +44,7 @@ public class Task extends IdEntity {
 	// JPA 基于USER_ID列的多对一关系定义
 	@ManyToOne
 	@JoinColumn(name = "user_id")
+	@JsonIgnore
 	public User getUser() {
 		return user;
 	}
